@@ -20,7 +20,7 @@ class NameForm extends React.Component {
   
     render() {
       return (
-        <form className="Form__input">
+        <form className="Form__input" onSubmit={this.handleSubmit}>
             <div class="form-group" className="Form__Email">
                 <label for="ID">Your ID</label>
                 <input type="text" class="form-control" id="ID" aria-describedby="emailHelp" placeholder="Enter Your NIC NUM"/>

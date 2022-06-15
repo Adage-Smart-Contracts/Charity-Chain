@@ -57,7 +57,7 @@ class App extends Component {
       <div className="Form__Container">
         <h1> Welcome to Donation for the Vithushan's Foundation</h1>
 
-        <Form/>
+        <Form />
         {/* <h1>Charity Chain</h1> <p>Your Truffle Box is installed and ready.</p>
         <h2>Smart Contract Example</h2>
         <p>
